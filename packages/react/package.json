@@ -10,9 +10,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "devDependencies": {
+    "@llh-ui/ts-config": "*",
     "@llh-ui/tokens": "*",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4"
