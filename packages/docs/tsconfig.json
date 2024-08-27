@@ -1,7 +1,15 @@
 {
+  "extends": "@llh-ui/ts-config/react.json",
+  "include": [
+    "src"
+  ],
   "files": [],
   "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
   ]
 }

@@ -11,6 +11,7 @@
     "build": "storybook build"
   },
   "dependencies": {
+    "@llh-ui/ts-config": "*",
     "@llh-ui/eslint-config": "*",
     "@llh-ui/react": "*",
     "@llh-ui/tokens": "*",
