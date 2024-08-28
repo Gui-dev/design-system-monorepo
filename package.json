@@ -3,5 +3,8 @@
   "workspaces": [
     "packages/*"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "turbo": "^2.1.0"
+  }
 }
