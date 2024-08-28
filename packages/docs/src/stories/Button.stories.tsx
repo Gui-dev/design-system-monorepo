@@ -3,7 +3,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { Button, ButtonProps } from '@llh-ui/react'
 
 export default {
-  title: 'Button',
+  title: 'Form/Button',
   component: Button,
   args: {
     children: 'Enviar'
