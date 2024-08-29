@@ -7,6 +7,11 @@ export default {
   component: Box,
   args: {
     children: <Text>Testando o elemento Box</Text>
+  },
+  parameters: {
+    backgrounds: {
+      default: 'dark',
+    },
   }
 } as Meta<IBoxProps>
 

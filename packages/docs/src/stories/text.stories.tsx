@@ -7,6 +7,11 @@ export default {
   component: Text,
   args: {
     children: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod optio quibusdam explicabo veritatis sed, distinctio libero sint ex rem. Commodi veritatis molestiae saepe voluptatibus odit dolorum eaque officia ipsam aliquam.'
+  },
+  parameters: {
+    backgrounds: {
+      default: 'dark',
+    },
   }
 } as Meta<ITextProps>
 
