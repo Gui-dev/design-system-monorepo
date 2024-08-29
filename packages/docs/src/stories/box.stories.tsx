@@ -1,16 +1,12 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import { Box, IBoxProps } from '@llh-ui/react'
+import { Box, IBoxProps, Text } from '@llh-ui/react'
 
 export default {
   title: 'Surfaces/Box',
   component: Box,
   args: {
-    children: (
-      <>
-        <span>Testando o elemento Box</span>
-      </>
-    )
+    children: <Text>Testando o elemento Box</Text>
   }
 } as Meta<IBoxProps>
 
