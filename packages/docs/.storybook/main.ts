@@ -15,7 +15,6 @@ const config: StorybookConfig = {
     "../src/stories/**/*.stories.tsx"
   ],
   addons: [
-    getAbsolutePath('storybook-dark-mode'),
     getAbsolutePath("@storybook/addon-onboarding"),
     getAbsolutePath("@storybook/addon-links"),
     getAbsolutePath("@storybook/addon-essentials"),
