@@ -13,6 +13,9 @@ export default {
     backgrounds: {
       default: 'dark',
     },
+    docs: {
+      source: { language: 'tsx' },
+    },
   }
 } as Meta<IButtonProps>
 
