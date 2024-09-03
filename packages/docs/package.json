@@ -15,6 +15,7 @@
     "@llh-ui/react": "*",
     "@llh-ui/tokens": "*",
     "@llh-ui/ts-config": "*",
+    "@storybook/addon-a11y": "^8.2.9",
     "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",
     "react": "^18.3.1",
