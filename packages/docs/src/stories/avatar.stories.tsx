@@ -9,6 +9,13 @@ export default {
     src: 'https://github.com/Gui-dev.png',
     alt: 'Gui Silva'
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      }
+    },
+  },
   parameters: {
     backgrounds: {
       default: 'dark',

@@ -8,6 +8,13 @@ export default {
   args: {
     children: <Text>Testando o elemento Box</Text>
   },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      }
+    },
+  },
   parameters: {
     backgrounds: {
       default: 'dark',
