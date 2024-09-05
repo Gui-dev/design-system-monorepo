@@ -10,7 +10,8 @@
         "storybook/static/**"
       ],
       "dependsOn": [
-        "^build"
+        "^build",
+        "build-storybook"
       ]
     }
   }
