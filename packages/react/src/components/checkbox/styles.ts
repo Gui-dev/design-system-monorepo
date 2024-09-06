@@ -24,6 +24,10 @@ export const CheckboxContainer = styled(Checkbox.Root, {
   '&[data-state="checked"]': {
     backgroundColor: '$green-300',
   },
+
+  '&:focus, &[data-state="checked"]': {
+    backgroundColor: '$green-300',
+  }
 })
 
 const slideIn = keyframes({
